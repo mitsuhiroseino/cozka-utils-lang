@@ -1,0 +1,9 @@
+export { default as detailedTypeOf } from './detailedTypeOf';
+export { default as firstDefined } from './firstDefined';
+export { default as getTypePriority } from './getTypePriority';
+export { default as isAsyncIterable } from './isAsyncIterable';
+export { default as isEmptyValue } from './isEmptyValue';
+export { default as isSame } from './isEqualBy';
+export { default as isIterable } from './isIterable';
+export { default as isPrimitive } from './isPrimitive';
+export { default as toValidValue } from './toValidValue';
