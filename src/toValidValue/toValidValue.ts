@@ -32,8 +32,8 @@ export default function toValidValue<V = unknown>(
   } else {
     // 型の指定あり
     // 型の判定
-    const type = detailedTypeOf(value),
-      { validType = VALUE_TYPE.ANY } = options;
+    const type = detailedTypeOf(value);
+    const { validType = VALUE_TYPE.ANY } = options;
     if (type === validType) {
       // 指定の型だった場合
       return value;
